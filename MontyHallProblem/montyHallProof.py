@@ -86,5 +86,5 @@ for player in players:
 print(
     "Player 1 won: " + str(player1.victories) + " times\n" + 
     "Player 2 won: " + str(player2.victories) + " times\n" +
-    "Player 3 won: " + str(player3.victories) + " times\n"
+    "Player 3 won: " + str(player3.victories) + " times"
 )
