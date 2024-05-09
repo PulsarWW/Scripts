@@ -67,7 +67,7 @@ for player in players:
         mixTheDoors(doors)
 
         player.choice = random.randint(1, 3)
-        removed = removeBadDoor(doors, player.choice)
+        removeBadDoor(doors, player.choice)
 
         if player.strategy == "change":
             player.changeChoice(doors)
